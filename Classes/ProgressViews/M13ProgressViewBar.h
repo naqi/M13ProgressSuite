@@ -37,6 +37,9 @@ typedef enum {
 @property (nonatomic, assign) CGFloat progressBarThickness;
 /**The corner radius of the progress bar.*/
 @property (nonatomic, assign) CGFloat progressBarCornerRadius;
+/**Line Cap style.*/
+@property (nonatomic, readonly) NSString *lineCapStyle;
+
 /**@name Actions*/
 /**The color the bar changes to for the success action.*/
 @property (nonatomic, retain) UIColor *successColor;
