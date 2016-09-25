@@ -30,6 +30,9 @@ typedef enum {
 @property (nonatomic, retain) UIColor *primaryColor;
 /**The secondary color of the `M13ProgressView`.*/
 @property (nonatomic, retain) UIColor *secondaryColor;
+/**The progress displayed to the user.*/
+@property (nonatomic, readonly) NSString *lineCapStyle;
+
 
 /**@name Properties*/
 /**Wether or not the progress view is indeterminate.*/
